@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecyclerviewQuizResults"
+    android:layout_margin="15dp">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:id="@+id/drawer_layout">
+
+        <include layout="@layout/toolbar"/>
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Quiz results history"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/toolbar"
+            />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txtTitle"
+            android:layout_marginStart="50dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvQuizResults"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/coordinator"
+            android:layout_marginTop="100dp"
+            />
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/navigationView"
+            app:menu="@menu/nav_menu"
+            android:layout_gravity="start"
+            />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+
+</RelativeLayout>

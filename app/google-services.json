@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "633134696246",
+    "firebase_url": "https://drivingquiz-3ec78-default-rtdb.firebaseio.com",
+    "project_id": "drivingquiz-3ec78",
+    "storage_bucket": "drivingquiz-3ec78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633134696246:android:d2c3f0f60562f26a409597",
+        "android_client_info": {
+          "package_name": "com.example.drivingquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633134696246-ki9lncslfah8cpso9s5gum9g9vednj25.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drivingquiz",
+            "certificate_hash": "aae9563324a5be435bfb9d9dffcf2bf8ce7e5842"
+          }
+        },
+        {
+          "client_id": "633134696246-vrann7lt7gfgfvqadq3n9srpaij40ojn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6NQW_Ih550ncunVQud-C6Sqh83bBQnu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633134696246-vrann7lt7gfgfvqadq3n9srpaij40ojn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
